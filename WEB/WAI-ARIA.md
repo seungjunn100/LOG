@@ -146,6 +146,14 @@
 **❗ARIA는 부족한 기능을 보완하는 보조 도구로서 필요할 때만 사용하는 것이 좋다❗**
 
 <br />
+
+## 참고
+- [MDN - WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics)
+- [W3C - WAI-ARIA 작성 방법](https://mulder21c.github.io/aria-practices/)
+- 부트캠프 강의 내용
+
+
+<br />
 <hr />
 <br />
 

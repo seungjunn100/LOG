@@ -128,10 +128,17 @@
 <br />
 <br />
 
-**❗웹 접근성을 위해서는 시맨틱 마크업, WCAG 가이드 라인 준수, 적절한 ARIA를 사용하는 것이다 ❗**
+**❗웹 접근성을 높이기 위해서는 시맨틱 마크업을 기반으로 하고, WCAG 가이드라인을 준수하며 필요한 경우에만 적절히 ARIA를 활용하는 것이 중요하다❗**
 
-<br />
-<hr />
 <br />
 
 [**웹접근성**을 위한 **WAI-ARIA**](./WAI-ARIA.md)
+
+<br />
+
+## 참고
+- [우아한테크 YouTube - 해온, 첵스의 웹접근성 & 웹표준](https://youtu.be/6p0lZaSAW3A?si=78ZnzTucqFBgY6sM)
+- [W3C - 웹 표준](https://www.w3.org/standards/)
+- [W3C - 웹 콘텐츠 접근성 가이드라인(WCAG)](https://www.w3.org/TR/WCAG22/)
+- [토스 - 접근성 문서 A11y Fundamentals](https://toss.tech/series/universal_design)
+- 부트캠프 강의 내용

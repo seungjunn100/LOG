@@ -1,6 +1,6 @@
 # Shell
 
-`셸(Shell)`은 운영체제와 사용자 사이에서 명령어를 통해 상호 작용할 수 있는 `프로그램`이다.
+`셸(Shell)`은 운영체제와 사용자 사이에서 명령어를 통해 상호 작용할 수 있는 프로그램이다.
 
 셸은 주로 `CLI(Commang Line Interface)` 방식으로 동작하며, 이 방식은 사용자가 텍스트 기반 명령어를 입력해서 컴퓨터와 상호 작용할 수 있다.
 
@@ -8,26 +8,26 @@
 
 ### 주요 셸의 특징과 차이점
 
-`Bash(Bourne Again Shell)`
+**Bash(Bourne Again Shell)**
 
 - 가장 널리 사용되는 셸 중 하나
 - 대부분의 Linux 배포판과 macOS의 기본 셸(Catalina 이전 버전)
 - 스크립팅 기능, 명령어 완성, 명령어 히스토리 등 제공
 
-`Zsh(Z Shell)`
+**Zsh(Z Shell)**
 
 - Bash와 호환되면서 추가 기능 제공
 - 더 강력한 자동 완성 기능
 - 테마와 플러그인을 통한 높은 사용자 정의 가능성
 - macOS Catalina부터 기본 셸로 채택됨
 
-`Fish(Friendly Interactive SHell)`
+**Fish(Friendly Interactive SHell)**
 
 - 사용자 친화적인 인터페이스에 중점
 - 자동 제안, 웹 기반 설정 등 현대적 기능 제공
 - Bash나 Zsh에 비해 호환성은 다소 떨어짐
 
-`PowerShell`
+**PowerShell**
 
 - Microsoft에서 개발한 셸
 - Windows에서 주로 사용되지만 크로스 플랫폼 지원
@@ -35,7 +35,7 @@
 
 <br />
 
-### `rc(run commands)`
+### rc(run commands)
 
 `rc`는 UNIX 계열 시스템에서 시작 시 실행되는 스크립트 파일이나 설정 파일을 가르킨다.
 
@@ -65,7 +65,13 @@ UNIX는 `작고 단순한 스크립트를 조합해서 사용하는 철학`을 �
 - `Mac OS`, `Ubuntu` - `Terminal`
   - `파일 삭제 - rm`
 
-만약 Windows와 Mac OS, Ubuntu에서 동일한 CLI 명령어를 사용하고자 한다면 Windows는 `Git bash`나 `WSL(Windows Subsystem for Linux)`을 사용할 수 있다.
+만약 Windows와 Mac OS, Ubuntu에서 동일한 CLI 명령어를 사용하고자 한다면 Windows는 `Git bash`나 `WSL(Windows Subsystem for Linux)`을 사용할 수 있다. 추가적으로 Windows는 프로젝트 폴더의 계층 구조를 시각적으로 보여주기 위한 **tree** 명령어를 사용하려면 별도의 설치 과정이 필요하다.
+
+1. <a href="../src/files/tree-1.5.2.2-bin.zip" download>tree-1.5.2.2-bin.zip</a> 파일을 다운로드 받은 후 압축을 푼다.
+2. tree-1.5.2.2-bin/bin 폴더 안에 있는 tree.exe 파일을 c:/Program Files/Git/usr/bin 폴더로 이동 또는 복사한다.
+3. Git Bash를 실행한 후 `tree` 명령어를 입력하여 동작하는지 확인한다.
+
+
 
 <br />
 
@@ -139,6 +145,14 @@ UNIX는 `작고 단순한 스크립트를 조합해서 사용하는 철학`을 �
 - `cp` : Copy
 - `cp index.html main.html` - `index.html`파일을 동일한 폴더에 복사한 후 파일명을 `main.html` 로 변경
 - `cp index.html views/main.html` - `index.html`파일을 `views` 폴더에 복사한 후 파일명을  `main.html` 로 변경
+
+<br />
+
+## 참고
+- [wikipedia - 셸(Shell)](https://ko.wikipedia.org/wiki/%EC%85%B8)
+- [wikipedia - 명령줄 인터페이스(CLI)](https://ko.wikipedia.org/wiki/%EB%AA%85%EB%A0%B9%EC%A4%84_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
+- [Linux Journey - 명령어에 대한 자세한 설명](https://labex.io/lesson/the-shell)
+- 부트캠프 강의 내용
 
 <br />
 <hr />
