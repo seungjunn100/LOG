@@ -137,7 +137,6 @@
 <br />
 
 ## 참고
-- [우아한테크 YouTube - 해온, 첵스의 웹접근성 & 웹표준](https://youtu.be/6p0lZaSAW3A?si=78ZnzTucqFBgY6sM)
 - [W3C - 웹 표준](https://www.w3.org/standards/)
 - [W3C - 웹 콘텐츠 접근성 가이드라인(WCAG)](https://www.w3.org/TR/WCAG22/)
 - [토스 - 접근성 문서 A11y Fundamentals](https://toss.tech/series/universal_design)
